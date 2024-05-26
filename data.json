@@ -1,0 +1,41 @@
+{
+  "socialMediaData": {
+    "totalFollowers": 23004,
+    "facebook": {
+      "username": "@nathanf",
+      "followers": 1987,
+      "followersChange": 12,
+      "pageViews": 87,
+      "pageViewsChange": 3,
+      "likes": 52,
+      "likesChange": -2
+    },
+    "twitter": {
+      "username": "@nathanf",
+      "followers": 1044,
+      "followersChange": 99,
+      "retweets": 117,
+      "retweetsChange": 303,
+      "likes": 507,
+      "likesChange": 553
+    },
+    "instagram": {
+      "username": "@realnathanf",
+      "followers": 11000,
+      "followersChange": 1099,
+      "likes": 5462,
+      "likesChange": 2257,
+      "profileViews": 52000,
+      "profileViewsChange": 1375
+    },
+    "youtube": {
+      "username": "Nathan F.",
+      "subscribers": 8239,
+      "subscribersChange": -144,
+      "totalViews": 1407,
+      "totalViewsChange": -12,
+      "likes": 107,
+      "likesChange": -19
+    }
+  }
+}

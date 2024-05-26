@@ -62,11 +62,11 @@ input:checked + .slider:before {
 /*end of toggle */
 .container {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 4rem;
+  padding: 2rem;
   justify-content: space-between;
-  gap: 35px;
+  gap: 50px;
   font-family: "Inter", sans-serif;
 }
 .followers {
@@ -75,9 +75,9 @@ input:checked + .slider:before {
   justify-content: center;
   border: 2px;
   border-top: 5px solid red;
-  padding: 50px;
+  padding: 70px;
   border-radius: 8px;
-  width: 500px;
+  width: 600px;
   height: 200px;
   background-color: hsl(227, 47%, 96%);
 }
@@ -88,6 +88,12 @@ input:checked + .slider:before {
 }
 .followers h1 {
   font-size: 45px;
+}
+.followers p {
+  color: hsl(163, 72%, 41%);
+}
+.followers:nth-child(4) p {
+  color: hsl(356, 69%, 56%);
 }
 .container .followers:nth-child(1) {
   border-top: 5px solid rgb(101, 124, 228);
@@ -106,6 +112,7 @@ input:checked + .slider:before {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-content: space-evenly;
+  justify-items: center;
   border: 2px;
   align-items: center;
   padding: 4rem;
@@ -115,11 +122,15 @@ input:checked + .slider:before {
 }
 
 .overview {
+  display: -ms-inline-grid;
   border: 2px;
-  padding: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
   border-radius: 8px;
   height: 150px;
   font-size: 90;
+  gap: 10px;
   background-color: hsl(227, 47%, 96%);
 }
 .overview h1 {
@@ -128,6 +139,19 @@ input:checked + .slider:before {
 .overview img {
   width: 20px;
   margin-left: 250px;
+}
+.overview p {
+  color: hsl(163, 72%, 41%);
+  margin-left: 5px;
+}
+.overview:nth-child(2) p {
+  color: hsl(356, 69%, 56%);
+}
+.overview:nth-child(8) p {
+  color: hsl(356, 69%, 56%);
+}
+.overview:nth-child(7) p {
+  color: hsl(356, 69%, 56%);
 }
 .attribution {
   font-size: 11px;
