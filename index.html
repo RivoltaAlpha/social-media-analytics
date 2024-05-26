@@ -32,55 +32,61 @@
     <div class="container">
       <!-- fb -->
       <div class="followers" id="facebook">
-        <span
-          ><img src="./images/icon-facebook.svg" alt="" />@<span
-            id="username"
-          ></span
-        ></span>
-        <h1><span id="followers">followers</span></h1>
-        <p>
-          <span> <img src="./images/icon-up.svg" /> </span
-          ><span id="followersChange">Today</span>Today
-        </p>
+        <div class="part1">
+          <img src="./images/icon-facebook.svg" alt="" />
+          <span id="username"></span>
+        </div>
+        <div class="part2">
+          <h1><span id="followers">followers</span></h1>
+          <p>
+            <span> <img src="./images/icon-up.svg" /> </span
+            ><span id="followersChange"></span>Today
+          </p>
+        </div>
       </div>
       <!-- twitter -->
       <div class="followers" id="twitter">
-        <span
-          ><img src="./images/icon-twitter.svg" alt="" /> @<span
-            id="username"
-          ></span
-        ></span>
-        <h1><span id="followers">followers</span></h1>
-        <p>
-          <span> <img src="./images/icon-up.svg" /> </span
-          ><span id="followersChange"></span>Today
-        </p>
+        <div class="part1">
+          <img src="./images/icon-twitter.svg" alt="" />
+          <span id="username"></span>
+        </div>
+        <div class="part2">
+          <h1><span id="followers">followers</span></h1>
+          <p>
+            <span> <img src="./images/icon-up.svg" /> </span
+            ><span id="followersChange"></span>Today
+          </p>
+        </div>
       </div>
       <!-- insta -->
       <div class="followers" id="instagram">
-        <span
-          ><img src="./images/icon-instagram.svg" alt="" />@<span
+        <div class="part2">
+          <img src="./images/icon-instagram.svg" alt="" /><span
             id="username"
-          ></span
-        ></span>
-        <h1><span id="followers">followers</span></h1>
-        <p>
-          <span><img src="./images/icon-up.svg" /> </span
-          ><span id="followersChange"></span>Today
-        </p>
+          ></span>
+        </div>
+        <div class="part2">
+          <h1><span id="followers">followers</span></h1>
+          <p>
+            <span><img src="./images/icon-up.svg" /> </span
+            ><span id="followersChange"></span>Today
+          </p>
+        </div>
       </div>
       <!-- youtube -->
       <div class="followers" id="youtube">
-        <span>
+        <div class="part1">
           <img src="./images/icon-youtube.svg" alt="" /> @<span
             id="username"
-          ></span
-        ></span>
-        <h1><span id="subscribers">followers</span></h1>
-        <p>
-          <span> <img src="./images/icon-down.svg" /></span
-          ><span id="subscribersChange"></span>Today
-        </p>
+          ></span>
+        </div>
+        <div class="part2">
+          <h1><span id="subscribers">followers</span></h1>
+          <p>
+            <span> <img src="./images/icon-down.svg" /></span
+            ><span id="subscribersChange"></span>Today
+          </p>
+        </div>
       </div>
     </div>
     <h1 style="padding-left: 70px">Overview Today</h1>
@@ -96,71 +102,101 @@
           </span>
         </p>
       </div>
-
-      <div class="overview">
-        <span> Likes </span><img src="./images/icon-facebook.svg" alt="" />
-        <h1 id="likes"></h1>
-        <p>
-          <span id="likesChange"></span>% <span id="likesChange"></span>
-          <span> <img src="./images/icon-down.svg" /> </span>
-        </p>
+      <div class="overview" id="facebook">
+        <div class="part1">
+          <span> Likes </span><img src="./images/icon-facebook.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="likes"></h1>
+          <p>
+            <span> <img src="./images/icon-down.svg" /> </span>
+            <span id="likesChange"></span>% <span id="likesChange"></span>
+          </p>
+        </div>
       </div>
       <!-- instagram -->
       <div class="overview">
-        <span>Likes</span><img src="./images/icon-instagram.svg" alt="" />
-        <h1 id="likes"></h1>
-        <p>
-          <span id="likesChange"></span>% <span id="likesChange"></span>
-          <span> <img src="./images/icon-up.svg" /> </span>
-        </p>
+        <div class="part1">
+          <span>Likes</span><img src="./images/icon-instagram.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="likes"></h1>
+          <p>
+            <span> <img src="./images/icon-up.svg" /> </span>
+            <span id="likesChange"></span>% <span id="likesChange"></span>
+          </p>
+        </div>
       </div>
       <div class="overview">
-        <span>Profile views</span
-        ><img src="./images/icon-instagram.svg" alt="" />
-        <h1 id="profileViews"></h1>
-        <p>
-          <span id="profileViewsChange"></span>
-          <span> <img src="./images/icon-up.svg" /> </span>
-        </p>
+        <div class="part1">
+          <span>Profile views</span
+          ><img src="./images/icon-instagram.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="profileViews"></h1>
+          <p>
+            <span> <img src="./images/icon-up.svg" /> </span>
+            <span id="profileViewsChange"></span>
+          </p>
+        </div>
       </div>
 
       <!-- twitter -->
       <div class="overview">
-        <span>Retweets</span><img src="./images/icon-twitter.svg" alt="" />
-        <h1 id="retweets"></h1>
-        <p>
-          <span id="retweetsChange"></span>%<span id="retweetsChange"></span>
-          <span> <img src="./images/icon-up.svg" /> </span>
-        </p>
+        <div class="part1">
+          <span>Retweets</span><img src="./images/icon-twitter.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="retweets"></h1>
+          <p>
+            <span> <img src="./images/icon-up.svg" /> </span>
+            <span id="retweetsChange"></span>%<span id="retweetsChange"></span>
+          </p>
+        </div>
       </div>
 
       <div class="overview">
-        <span>Likes</span><img src="./images/icon-twitter.svg" alt="" />
-        <h1 id="likes"></h1>
-        <p>
-          <span id="likesChange"></span>% <span id="likesChange"></span>
-          <span> <img src="./images/icon-up.svg" /> </span>
-        </p>
+        <div class="part1">
+          <span>Likes</span><img src="./images/icon-twitter.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="likes"></h1>
+          <p>
+            <span> <img src="./images/icon-up.svg" /> </span>
+            <span id="likesChange"></span>% <span id="likesChange"></span>
+          </p>
+        </div>
       </div>
       <!-- youtube -->
       <div class="overview">
-        <span>Profile Views</span><img src="./images/icon-youtube.svg" alt="" />
-        <h1 id="subscribers"></h1>
-        <p>
-          <span id="subscribersChange"></span>%<span
-            id="subscribersChange"
-          ></span>
-          <span> <img src="./images/icon-down.svg" /> </span>
-        </p>
+        <div class="part1">
+          <span>Profile Views</span
+          ><img src="./images/icon-youtube.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="subscribers"></h1>
+          <p>
+            <span> <img src="./images/icon-down.svg" /> </span>
+            <span id="subscribersChange"></span>%<span
+              id="subscribersChange"
+            ></span>
+          </p>
+        </div>
       </div>
 
       <div class="overview">
-        <span>Total Views</span><img src="./images/icon-youtube.svg" alt="" />
-        <h1 id="totalViews"></h1>
-        <p>
-          <span id="totalViewsChange"></span>%<span id="totalViews"></span>
-          <span> <img src="./images/icon-down.svg" /> </span>
-        </p>
+        <div class="part1">
+          <span>Total Views</span><img src="./images/icon-youtube.svg" alt="" />
+        </div>
+        <div class="part2">
+          <h1 id="totalViews"></h1>
+          <p>
+            <span> <img src="./images/icon-down.svg" /> </span>
+            <span id="totalViewsChange"></span>%<span
+              id="totalViewsChange"
+            ></span>
+          </p>
+        </div>
       </div>
     </div>
     <div class="attribution">Coded by <a href="#">Tiff</a></div>

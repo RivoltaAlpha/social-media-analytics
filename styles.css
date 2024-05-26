@@ -62,11 +62,12 @@ input:checked + .slider:before {
 /*end of toggle */
 .container {
   display: flex;
+  margin: 30px;
   flex-direction: row;
   align-items: center;
   padding: 2rem;
   justify-content: space-between;
-  gap: 50px;
+  gap: 30px;
   font-family: "Inter", sans-serif;
 }
 .followers {
@@ -75,7 +76,7 @@ input:checked + .slider:before {
   justify-content: center;
   border: 2px;
   border-top: 5px solid red;
-  padding: 70px;
+  padding: 50px;
   border-radius: 8px;
   width: 600px;
   height: 200px;
@@ -134,7 +135,11 @@ input:checked + .slider:before {
   background-color: hsl(227, 47%, 96%);
 }
 .overview h1 {
-  font-size: 90;
+  font-size: 70;
+  padding-top: 10px;
+}
+.overview p {
+  display: flex;
 }
 .overview img {
   width: 20px;
@@ -166,36 +171,43 @@ input:checked + .slider:before {
   .main {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 1rem;
     gap: 15px;
+    margin-left: 5px;
   }
   .overview {
     border: 2px;
     padding: 20px;
     border-radius: 5px;
-    height: 100px;
+    height: 200px;
+    width: 200px;
   }
 
   .overview img {
     margin-left: 150px;
+    margin-top: 0;
+    padding-top: 0;
     width: 18px;
   }
 
   .header {
-    padding-left: 40px;
+    padding: 10px;
     border-bottom: 1px solid hsl(228, 12%, 44%);
   }
 
   .container {
+    display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 10px;
     gap: 15px;
+    margin: 5px;
   }
 
   .followers {
-    padding: 45px;
+    padding: 40px;
     height: 200px;
     width: 150px;
+    margin-left: 0px;
   }
   .header h1 {
     font-size: 1.5rem;
